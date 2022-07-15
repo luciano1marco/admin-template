@@ -8,8 +8,11 @@ interface CabecalhoProps{
 
 export default function Cabecalho(props: CabecalhoProps){
     return(
-        <div>
-           <Titulo titulo={props.titulo} subtitulo={props.subtitulo}></Titulo>
+        <div className={``}>
+            <div className={``}>
+                <Titulo titulo={props.titulo} subtitulo={props.subtitulo}></Titulo>
+       
+            </div>
         </div>
     )
 }
