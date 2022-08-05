@@ -25,7 +25,7 @@ export function AuthProvider(props){
 
     const [usuario,setUsuario] = useState<Usuario>(null)
     async function loginGoogle(){
-
+        console.log('login google...')
     }
     return(
         <AuthContext.Provider value={{ 
