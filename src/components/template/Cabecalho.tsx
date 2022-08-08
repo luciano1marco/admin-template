@@ -3,11 +3,13 @@ import AvatarUsuario from "./AvatarUsuario"
 import BotaoAlternarTema from "./BotaoAlternarTema"
 import Titulo from "./Titulo"
 
+//-------------------------------------------------------------------------
 interface CabecalhoProps{
     titulo: string
     subtitulo: string
 }
 
+//-------------------------------------------------------------------------
 export default function Cabecalho(props: CabecalhoProps){
 
     const {tema, alternarTema} = useAppData()

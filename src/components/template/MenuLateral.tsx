@@ -3,6 +3,7 @@ import { IconeCasa, IconeAjustes, IconeSino, IconeSair } from "../icons/index";
 import Logo from "./Logo";
 import MenuItem from "./MenuItem";
 
+//-------------------------------------------------------------------------
 export default function MenuLateral(){
 
     const { logout } = useAuth()

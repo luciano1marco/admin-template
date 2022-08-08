@@ -3,6 +3,7 @@ import AuthInput from "../components/auth/AuthInput";
 import { IconeAtencao } from "../components/icons";
 import useAuth from "../data/hook/useAuth";
 
+//-------------------------------------------------------------------------
 export default function Autenticacao(){
     
     const { usuario, loginGoogle } = useAuth()
@@ -15,7 +16,7 @@ export default function Autenticacao(){
         setErro(msg)
         setTimeout(() => setErro(null), tempoEmSegundos * 1000 )
     }
-    
+//-------------------------------------------------------------------------
     function submeter(){
         if(modo === 'login'){
             console.log('login')
@@ -25,7 +26,7 @@ export default function Autenticacao(){
             exibirErro('Ocorreu um erro no cadastro')
         }
     }
-
+//-------------------------------------------------------------------------
     return(
         <div className={`flex h-screen items-center justify-center`}>
             <div className={`hidden md:block md:w-1/2 lg:w-2/3`}>
