@@ -4,6 +4,7 @@ interface TituloProps{
    
 }
 
+//-------------------------------------------------------------------------
 export default function Titulo(props: TituloProps){
     return(
         <div>

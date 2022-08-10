@@ -8,6 +8,7 @@ interface AuthInputProps{
     valorMudou: (novoValor:any) => void
 }
 
+//-------------------------------------------------------------------------
 export default function AuthInput(props: AuthInputProps){
     return props.naoRenderizarQuando ? null : (
         <div className="flex flex-col mt-4">
